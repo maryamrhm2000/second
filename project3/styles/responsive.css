@@ -1,0 +1,283 @@
+@media only screen and (max-width: 1200px) {
+    .why__svg {
+        display: flex;
+        width: 10rem;
+        height: 10rem;
+        top: -4rem;
+        left: -1rem;
+    }
+
+    .why__img {
+        width: 92%;
+        margin: auto;
+    }
+
+    .swiper2 {
+        width: 46% !important;
+
+    }
+
+    .comment {}
+}
+
+@media only screen and (max-width: 992px) {
+    .shap1 {
+        width: 50rem;
+        height: 50rem;
+    }
+
+    .menu-item {
+        font-size: 1.5rem;
+        margin: 0 1.5rem
+    }
+
+    .home__img {
+
+        width: 35rem;
+        height: 25rem;
+        margin: 0 auto;
+
+    }
+
+    .why__svg {
+        display: none;
+    }
+
+    .why__txt {
+        width: auto;
+    }
+
+    .provide__wrapper-content {
+        max-width: 80%;
+    }
+
+    .swiper2 {
+        width: 63% !important;
+
+    }
+
+
+    .comment__png-wrapper {
+        width: 1.5rem;
+
+    }
+
+
+
+    .comment__caption {
+        max-width: 40%;
+        font-family: "light";
+        margin: 1rem auto;
+        font-size: 1.4rem;
+    }
+
+    .comment__title {
+        font-family: "bold";
+        text-align: center;
+        font-size: 1.6rem;
+    }
+
+    .comment-img {
+        width: 6rem !important;
+        height: 6rem !important;
+
+
+    }
+
+    .swiper-wrapper1 {
+        gap: 0 !important;
+    }
+
+    .swiper2 {
+
+        width: 48% !important;
+
+    }
+
+    .footer2__caption {
+        max-width: 22rem;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        padding-top: 35px;
+    }
+
+    .logo-wrapper {
+        margin: 0;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .main-menu {
+
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -250px;
+        background-color: #78bbb0;
+        ;
+        width: 250px;
+        -webkit-transition: 0.3s;
+        transition: 0.3s;
+    }
+
+    .menu-item {
+        margin: 25px 15px !important;
+        padding: 5px 0 !important;
+        font-size: 1.8rem;
+    }
+
+    .menu-item.active {
+        background-color: transparent !important;
+    }
+
+    .login-btn {
+        display: block;
+        text-align: center;
+    }
+
+    .shap1 {
+        display: none;
+    }
+
+    .row-revers {
+        flex-direction: column-reverse;
+    }
+
+    .home__img {
+
+        width: 45rem;
+        height: 32rem;
+        margin: 0 auto;
+
+    }
+
+    .home__txt {
+        text-align: center;
+        width: 100%;
+    }
+
+    .home__btns {
+        justify-content: center;
+    }
+
+    .why__txt {
+        text-align: center;
+    }
+
+    .why__btn {
+        margin: auto;
+        width: auto;
+    }
+
+    .borderBottem {
+        margin: 2rem 0;
+    }
+
+    .why__svg {
+        display: block;
+    }
+
+    .provide__wrapper-content {
+        max-width: 95%;
+    }
+
+    .darsad {
+        flex-basis: 25%;
+        margin: auto;
+    }
+
+    .provid__design {
+        flex-basis: 75%;
+    }
+
+    .swiper2 {
+        width: 64% !important;
+
+    }
+
+    .footer__ul {
+        padding: 0;
+        gap: 2rem;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 576px) {
+    .home__img {
+
+        width: 35rem;
+        height: 25rem;
+        margin: 0 auto;
+    }
+
+    .why__svg {
+        display: none;
+    }
+
+    .provide__wrapper-content {
+        flex-wrap: wrap;
+
+    }
+
+    .darsad {
+        width: 100%;
+        flex-basis: 75%;
+    }
+
+    .row2 {
+        margin-top: 20rem;
+
+        /* flex-direction:column-reverse; */
+    }
+
+    .provide__btn {
+        margin: 30rem auto 0 auto;
+        width: 80%;
+
+    }
+
+    .submit-btn {
+        width: 60%;
+    }
+
+    .work-btn {
+
+        margin: 3rem auto 0 auto;
+    }
+
+
+    .swiper2 {
+
+        width: 75% !important;
+
+    }
+
+    .message_area {
+        width: 70%;
+    }
+
+
+.footer2 ,.footer1{
+    flex-direction: column;
+    text-align: center;
+}
+.footer1__caption{
+    font-size: 1.6rem;
+    margin-top: 1rem;
+}
+.footer2__caption {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+}

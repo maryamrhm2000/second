@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "bold";
+    src: url("../font/JosefinSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "light";
+    src: url("../font/JosefinSans-Light.ttf") format("truetype");
+}
+
+
+@font-face {
+    font-family: "semiBold";
+    src: url("../font/JosefinSans-SemiBold.ttf") format("truetype");
+}
+@font-face {
+    font-family: "italic";
+    src: url("../font/JosefinSans-Italic.ttf") format("truetype");
+}
